@@ -2,4 +2,39 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.big-box {
+  width: 900px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px;
+
+}
+
+.upper-img img {
+  margin: 0 20px 10px 0;
+  float: left;
+}
+
+.lower-img img {
+  margin: 0 0 10px 20px;
+  float: right;
+}
+
+.upper-sentence,.lower-sentence {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+/*.upper,.lower {
+  padding: 20px;
+}*/
+/*
+img {
+  margin: 10px 20px;
+}*/
+/* 回答
+
+はここに書いてね */
