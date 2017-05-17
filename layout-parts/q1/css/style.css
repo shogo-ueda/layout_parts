@@ -19,7 +19,6 @@
   float: left;
   background-color: #3274ae;
   margin: 10px;
-
 }
 
 .white-box {
@@ -30,14 +29,8 @@
   border: solid 10px #022336;
   box-sizing: border-box; 
   padding: 20px;
-}
-
-
-
-p {
   font-size: 16px;
   line-height: 16px;
-
 }
 
 /* 回答はここに書いてね */
