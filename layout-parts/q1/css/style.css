@@ -1,5 +1,43 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 
 /* 回答はここに書いてね */
+
+
+.big-box {
+  position: relative;
+  width: 900px;
+/*  height: 700px;
+*/  background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 10px
+}
+
+.blue-box > li {
+/*  height: 590px;
+*/  left: 20px;
+  top: 20px;
+  float: left;
+  background-color: #3274ae;
+  margin: 10px;
+
+}
+
+.white-box {
+  width: 230px;
+/*  height: 550px;*/
+  margin: 20px;
+  background-color: #eaf4ff;
+  border: solid 10px #022336;
+  box-sizing: border-box; 
+  padding: 20px;
+}
+
+
+
+p {
+  font-size: 16px;
+  line-height: 16px;
+
+}
 
 /* 回答はここに書いてね */
