@@ -2,4 +2,156 @@
 
 /* 回答はここに書いてね */
 
+/*整列させる*/
+.common-wrapper {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.default-all {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 16px;
+}
+
+.textbox {
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+}
+
+/*インプットに色つける*/
+.textbox::-webkit-input-placeholder {
+color: #00BCD4;
+}
+
+.textbox:focus {
+box-shadow: 0 0 7px #00BCD4;
+}
+
+.textarea {
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;
+}
+
+.radio-wrapper.checkbox-wrapper {
+cursor: pointer;
+}
+
+/*消えるやつ*/
+.radio-selecter {
+display: none;
+}
+
+.radio-sentence {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio-sentence:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio-selecter:checked + .radio-sentence:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.checkbox-selecter {
+  display: none;
+}
+
+.checkbox-sentence {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
+}
+.checkbox-sentence:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.checkbox-selecter:checked + .checkbox-sentence:after {
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.select-wrapper {
+  position: relative;
+  background-color: #FFF;
+}
+
+.select-wrapper:before {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+
+.select-wrapper-inner {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+}
+
+.common-btn {
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #00BCD4;
+  cursor: pointer;
+}
+
+/*:active おしているとき
+*/.common-btn:active {
+  background-color: #00BCD4;
+  color: white;
+}
+
 /* 回答はここに書いてね */

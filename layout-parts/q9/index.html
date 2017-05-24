@@ -22,7 +22,7 @@
         </h2>
         <!--
         最近のレイアウトの流行りで、グリッドレイアウトというものがあります。レイアウトを均等に分けて、マス目上で考えることできれいなレイアウト作りをしやすくする考え方です。
-        詳細はこちらで確認してください。 -> http://morobrand.net/mororeco/html/gridlayout/
+        詳細はこちらで確認してください。 ->   
 
         上記URLの内容を理解した前提で進めます。
         グリッドデザインでは、12という数字を基準としてグリッドをわけます。100%一つで表示する際はグリッドの数字は12、50%二つで表示する際はグリッドの数字は6といった具合です。
@@ -36,52 +36,57 @@
         今回もHTMLは記述してあるので、新たにclassを付与してスタイルをあててください。
         -->
         <!-- 回答はここに書いてね -->
-        <div>
-            <div>
-                <div><div>12</div></div>
+          <div class="outer-box">
+            <div class="grid">
+                <div class="grid-12"><div class="common">12</div></div>
             </div>
-            <div>
-                <div><div>6</div></div>
-                <div><div>6</div></div>
+
+            <div class="grid">
+                <div class="grid-6"><div class="common">6</div></div>
+                <div class="grid-6"><div class="common">6</div></div>
             </div>
-            <div>
-                <div><div>4</div></div>
-                <div><div>4</div></div>
-                <div><div>4</div></div>
+
+            <div class="grid">
+                <div class="grid-4"><div class="common">4</div></div>
+                <div class="grid-4"><div class="common">4</div></div>
+                <div class="grid-4"><div class="common">4</div></div>
             </div>
-            <div>
-                <div><div>3</div></div>
-                <div><div>3</div></div>
-                <div><div>3</div></div>
-                <div><div>3</div></div>
+
+            <div class="grid">
+                <div class="grid-3"><div class="common">3</div></div>
+                <div class="grid-3"><div class="common">3</div></div>
+                <div class="grid-3"><div class="common">3</div></div>
+                <div class="grid-3"><div class="common">3</div></div>
             </div>
-            <div>
-                <div><div>2.4</div></div>
-                <div><div>2.4</div></div>
-                <div><div>2.4</div></div>
-                <div><div>2.4</div></div>
-                <div><div>2.4</div></div>
+            <div class="grid">
+                <div class="grid-2_4"><div class="common">2.4</div></div>
+                <div class="grid-2_4"><div class="common">2.4</div></div>
+                <div class="grid-2_4"><div class="common">2.4</div></div>
+                <div class="grid-2_4"><div class="common">2.4</div></div>
+                <div class="grid-2_4"><div class="common">2.4</div></div>
             </div>
-            <div>
-                <div><div>2</div></div>
-                <div><div>2</div></div>
-                <div><div>2</div></div>
-                <div><div>2</div></div>
-                <div><div>2</div></div>
-                <div><div>2</div></div>
+            <div class="grid">
+            <div class="grid-2"><div class="common">2</div></div>
+                 <div class="grid-2"><div class="common">2</div></div>
+                 <div class="grid-2"><div class="common">2</div></div>
+                 <div class="grid-2"><div class="common">2</div></div>
+                 <div class="grid-2"><div class="common">2</div></div>
+                 <div class="grid-2"><div class="common">2</div></div>
             </div>
-            <div>
-                <div><div>6</div></div>
-                <div><div>3</div></div>
-                <div><div>3</div></div>
+            <div class="grid">
+                <div class="grid-6"><div class="common">6</div></div>
+                <div class="grid-3"><div class="common">3</div></div>
+                <div class="grid-3"><div class="common">3</div></div>
             </div>
-            <div>
-                <div><div>2</div></div>
-                <div><div>2</div></div>
-                <div><div>4</div></div>
-                <div><div>4</div></div>
+            <div class="grid fixed">
+                <div class="grid-2"><div class="common">2</div></div>
+                <div class="grid-2"><div class="common">2</div></div>
+                <div class="grid-4"><div class="common">4</div></div>
+                <div class="grid-4"><div class="common">4</div></div>
             </div>
         </div>
+
+
         <!-- 回答はここに書いてね -->
     </div>
 </div>

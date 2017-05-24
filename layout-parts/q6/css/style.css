@@ -2,4 +2,88 @@
 
 /* 回答はここに書いてね */
 
+.q6 {
+  margin: auto;
+  width: 600px;
+/*  display: flex;
+  justify-content: center;*/
+}
+
+.small {
+  padding: 0 15px;
+  line-height: 26px;
+  border-radius: 3px;
+  font-size: 16px;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 10px;
+  display: inline-block;
+
+}
+
+.middle {
+  padding: 0 20px;
+  line-height: 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.large {
+  padding: 0 25px;
+/*  height: 38px;
+*/  border-radius: 7px;
+  font-size: 24px;
+  border-radius: 7px;
+  font-size: 24px;
+  margin: 10px;
+  display: inline-block;
+  line-height: 38px;
+}
+
+.common {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.error {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.disabled {
+  background-color: #e5e5e5;
+  color: #fff;
+}
+
+.shadow {
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12)
+  
+/*  0 1px 4px rgba(0,0,0,12)*/
+}
+
+
+  border-radius: 5px;
+  font-size: 20px;
+
+  background-color: #ff4081
+  background-color: #e5e5e5
+  background-color: #222
+
+  0 1px 6px rgba(0,0,0,12)
+  0 1px 4px rgba(0,0,0,12)
+
+
+middle {
+
+}
+
+large {
+
+}
 /* 回答はここに書いてね */

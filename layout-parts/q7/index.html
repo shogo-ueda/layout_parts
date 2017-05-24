@@ -26,7 +26,7 @@
         少し難しい課題ではありますが調べつつ作ってみてください。
         ヒントとして、まずはデフォルトでタグにあてられているスタイルを解除して、フラットな状態にしてからスタイルを当てていくことが大事です。
 
-        特に、radioとcheckboxのチェックのスタイルが難しいと思います。
+        特に、radioとcheckboxのチェックのスタイルが難しいと思います
         やり方として、既存のチェックは使わずに擬似要素でチェックのフィールドを再現します。:checkedを使えばチェックされているかどうかであてるスタイルを変えることができるので、これをうまく使いましょう。
 
         この問題のみデベロッパーツールでスタイルを見て構わないので色やサイズの確認はデベロッパーツールでしてください。
@@ -49,7 +49,51 @@
         -->
         <!-- 回答はここに書いてね -->
 
-        <!-- 回答はここに書いてね -->
+<!-- text
+ -->
+<div class="common-wrapper">
+    <input class="textbox default-all" type="text" placeholder='input="text"'>
+</div>
+
+<div class="common-wrapper">
+  <textarea class="textarea default-all" type="text" placeholder="textarea(サイズ固定)"></textarea>
+</div>
+
+<div class="common-wrapper">
+    <label class="radio-wrapper">
+        <input class="radio-selecter" type="radio" name="1">
+        <span class="radio-sentence">radio1</span>
+    </label>
+    <label class="radio-wrapper">
+        <input class="radio-selecter" type="radio" name="1">
+        <span class="radio-sentence">radio2</span>
+    </label>
+</div>
+
+<div class="common-wrapper">
+    <label class="checkbox-wrapper">
+        <input class="checkbox-selecter" type="checkbox">
+        <span class="checkbox-sentence">checkbox</span>
+    </label>
+</div>
+
+<div class="common-wrapper">
+  <div class="select-wrapper">
+      <select class="select-wrapper-inner">
+          <option>select1</option>
+          <option>select2</option>
+          <option>select3</option>
+      </select>
+  </div>
+</div>
+
+<div class="common-wrapper">
+    <button class="common-btn default-all">button</button></div>
+</div>
+
+</div>
+
+
     </div>
 </div>
 

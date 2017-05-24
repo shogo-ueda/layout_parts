@@ -1,5 +1,148 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.form-all {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
 
-/* 回答はここに書いてね */
+.common-default {
+  appearance: none;
+  border: none;
+  background: none;
+}
+
+.common-white {
+  width: 100%; /*180px*/
+  padding: 5px;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.form-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/*レイヤーが隠れている
+*/.form-title:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 99%;
+  height: 1px;
+  background-color: #ccc;
+  content:"";
+}
+
+.form-title-sentence {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+.form-left-box {
+  float: left;
+  width: 300px;
+}
+
+.form-left-box-inner {
+  margin-bottom: 20px;
+}
+
+
+.form-left-box-inner-sentence {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.form-left-box-inner-main {
+  float: right;
+  width: 180px;
+}
+
+/*notは先頭以外を適用する*/
+.form-left-box-inner > li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.ast {
+  color: #F00;
+}
+
+.form-left-box-radio,.form-left-box-submit-btn {
+  cursor: pointer;
+}
+/*ないものとして扱う便利なプロパティ
+*/.form-left-box-radio-btns {
+  display: none;
+}
+
+.form-left-box-radio-text {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.form-left-box-radio-text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+/*青い玉を表示*/
+.form-left-box-radio-btns:checked + .form-left-box-radio-text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.form-left-box-submit {
+  text-align: right;
+}
+.form-left-box-submit-btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  width: 65px;
+}
+
+.form-right {
+  float: right;
+  width: 380px;
+}
+
+.form-right-textarea {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}

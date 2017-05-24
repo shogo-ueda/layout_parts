@@ -2,4 +2,65 @@
 
 /* 回答はここに書いてね */
 
+/*.clearfix {
+  display: table;
+  clear: both;
+  content: '';
+}
+*/
+
+
+.outer-box {
+  background-color: #ecf1f2;
+}
+
+.grid {
+  display: flex;
+  padding: 10px;
+}
+
+
+.common {
+  background-color: white; 
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.grid-12 {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+  .grid-6 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  }
+
+  .grid-4 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33%;
+  }
+
+    .grid-3 {
+ display: inline-block;
+ width: 25%;
+  }
+
+    .grid-2_4 {
+      width: 20%;
+  }
+
+    .grid-2 {
+  width: 16.6%;
+    }
+.fixed {
+  padding-bottom: 20px;
+}
+
 /* 回答はここに書いてね */
